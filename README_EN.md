@@ -14,7 +14,6 @@ This repository contains:
 - Environment setup and usage instructions for TabPFNv2(Pre-emptive note: The configured GPU is from the GreatLake dataset of the University of Michigan. You can replace it with your own GPU if desired.)
   
 - End-to-end pipeline from CSV input to prediction output
-- 
 - Detailed architecture analysis of TabPFNv2
 
 ---
