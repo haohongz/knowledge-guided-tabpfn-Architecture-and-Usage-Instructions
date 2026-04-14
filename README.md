@@ -1,4 +1,4 @@
-# TabPFNv2 快速上手指南
+# TabPFNv2 架构及使用指南
 
 > University of Michigan | KECC Research Group | Haohong Zhang
 >
