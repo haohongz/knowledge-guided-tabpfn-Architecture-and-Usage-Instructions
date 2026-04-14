@@ -48,7 +48,7 @@ from tabpfn import TabPFNClassifier
 from sklearn.model_selection import train_test_split
 
 df = pd.read_csv("sample_medical.csv")
-print(f"数据: {df.shape[0]}个病人, {df.shape[1]-1}个特征")
+print(f"data: {df.shape[0]}个病人, {df.shape[1]-1}个特征")
 
 X = df.iloc[:, :-1].values    # First 6 columns = features
 y = df.iloc[:, -1].values     # Last column = label (disease)
@@ -186,10 +186,10 @@ That's it. Everything else stays the same.
 
 ```bash
 # From your Mac, upload the file to Great Lakes:
-scp ~/Downloads/your_data.csv haohongz@greatlakes.arc-ts.umich.edu:~/tabpfn_project/
+scp ~/Downloads/your_data.csv ******@greatlakes.arc-ts.umich.edu:~/tabpfn_project/
 
 # Login and run:
-ssh haohongz@greatlakes.arc-ts.umich.edu
+ssh ******@greatlakes.arc-ts.umich.edu
 conda activate ~/tabpfn_env
 cd ~/tabpfn_project
 python run_medical.py
