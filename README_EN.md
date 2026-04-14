@@ -11,8 +11,10 @@
 TabPFNv2 is a tabular foundation model published in Nature 2025. It uses **In-Context Learning (ICL)** for prediction: the training set is fed as "context" into a Transformer, and predictions are made in a single forward pass — **no per-dataset training required**.
 
 This repository contains:
-- Environment setup and usage instructions for TabPFNv2
+- Environment setup and usage instructions for TabPFNv2(Pre-emptive note: The configured GPU is from the GreatLake dataset of the University of Michigan. You can replace it with your own GPU if desired.)
+  
 - End-to-end pipeline from CSV input to prediction output
+- 
 - Detailed architecture analysis of TabPFNv2
 
 ---
