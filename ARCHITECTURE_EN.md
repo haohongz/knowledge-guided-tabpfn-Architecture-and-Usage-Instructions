@@ -1,6 +1,6 @@
 # TabPFNv2 Architecture Analysis
 
-> Haohong Zhang | University of Michigan
+> Haohong Zheng | University of Michigan
 >
 > Architecture walkthrough based on source code reading and paper analysis
 
