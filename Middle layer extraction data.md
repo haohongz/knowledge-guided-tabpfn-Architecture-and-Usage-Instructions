@@ -1,4 +1,4 @@
-# 任务一：TabPFNv2 中间层提取
+# TabPFNv2 中间层提取
 
 > 用 PyTorch hook 机制把 TabPFNv2 每一层的中间结果都提取出来，打开黑箱。
 
